@@ -1,0 +1,2 @@
+2021-04-13T19:55:38+00:00 CRITICAL Out of memory (allocated 73400320) (tried to allocate 28672 bytes) in C:\xampp\apps\wordpress\htdocs\wp-admin\includes\ajax-actions.php on line 532
+
