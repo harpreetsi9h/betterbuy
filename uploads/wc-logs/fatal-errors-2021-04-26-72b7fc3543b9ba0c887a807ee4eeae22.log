@@ -1,0 +1,10 @@
+2021-04-26T01:32:22+00:00 CRITICAL Uncaught Error: Call to undefined function get_assets_directory_uri() in C:\xampp\apps\wordpress\htdocs\wp-content\plugins\loginform\loginform.php:13
+Stack trace:
+#0 C:\xampp\apps\wordpress\htdocs\wp-includes\class-wp-hook.php(292): my_login_logo('')
+#1 C:\xampp\apps\wordpress\htdocs\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\apps\wordpress\htdocs\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\apps\wordpress\htdocs\wp-login.php(114): do_action('login_enqueue_s...')
+#4 C:\xampp\apps\wordpress\htdocs\wp-login.php(1285): login_header('Log In', '', Object(WP_Error))
+#5 {main}
+  thrown in C:\xampp\apps\wordpress\htdocs\wp-content\plugins\loginform\loginform.php on line 13
+
